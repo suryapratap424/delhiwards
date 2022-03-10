@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    width: 25%;
+    height: 100vh;
+    overflow: auto;
+}
+#map {
+    height: 100vh;
+    width: 75%;
+}
+.listitem{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
