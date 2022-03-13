@@ -74,6 +74,6 @@ function createList(theme,feature){
     return `<h3>Name : ${feature.properties.Ward_Name}</h3><p>Number : ${feature.properties.Ward_No}</p>`
   }
   if(theme == 'dist'){
-    return `<h3>Name : ${feature.properties.DISTRICT}</h3><p>State Name :${feature.properties.ST_NM}</p>`
+    return `<h3>Name : ${feature.properties.DISTRICT}</h3><p>district code :${feature.properties.DT_CEN_CD}</p>`
   }
 }
